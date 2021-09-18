@@ -55,6 +55,33 @@ religion = random.choices(religions, [31.11, 24.9, 15.58, 15.16, 5.06, 0.3, 7.89
     0
 ]
 
+traits_clone = traits.copy()
+
+trait_num = random.randint(1, 5)
+good_trait_num = random.randint(1, trait_num)
+bad_trait_num = trait_num - good_trait_num
+
+# assign traits
+traits_dict = {"good": [], "bad": []}
+for i in range(good_trait_num):
+    trait = random.choice(traits_clone["good"])
+    traits_dict["good"].append(trait)
+    idx = traits_clone["good"].index(trait)
+    traits_clone["good"].pop(idx)
+
+# remove opposites from bad traits
+for trait in traits_dict["good"]:
+    if traits_clone["opposite"].get(trait):
+        traits_clone["bad"].pop(
+            traits_clone["bad"].index(traits_clone["opposite"][trait])
+        )
+
+
+for i in range(bad_trait_num):
+    trait = random.choice(traits["bad"])
+    traits_dict["bad"].append(trait)
+    idx = traits_clone["bad"].index(trait)
+    traits_clone["bad"].pop(idx)
 
 special_job = True if random.randint(1, 10) == 1 else False
 if special_job:
@@ -101,3 +128,8 @@ print("Religion:", religion)
 print("Occupation:", occupation.title())
 if death_cause:
     print("Death Cause:", death_cause)
+print("Character Traits")
+for trait in traits_dict["good"]:
+    print("-", trait)
+for trait in traits_dict["bad"]:
+    print("-", trait)

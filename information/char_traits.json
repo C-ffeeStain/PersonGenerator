@@ -1,0 +1,44 @@
+{
+    "good": [
+        "loyal",
+        "courageous",
+        "good",
+        "generous",
+        "ambitious",
+        "humble",
+        "loving",
+        "kind",
+        "patient",
+        "wise",
+        "strong",
+        "polite"
+    ],
+    "bad": [
+        "dishonest",
+        "cowardly",
+        "evil",
+        "greedy",
+        "lazy",
+        "prideful",
+        "menacing",
+        "rude",
+        "stubborn",
+        "stupid",
+        "weak",
+        "disrespectful"
+    ],
+    "opposite": {
+        "good": "evil",
+        "loyal": "dishonest",
+        "courageous": "cowardly",
+        "generous": "greedy",
+        "ambitious": "lazy",
+        "humble": "prideful",
+        "loving": "menacing",
+        "kind": "rude",
+        "patient": "stubborn",
+        "wise": "stupid",
+        "strong": "weak",
+        "polite": "disrespectful"
+    }
+}
