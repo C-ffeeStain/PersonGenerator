@@ -3,8 +3,14 @@
 This is a program which generates random people! Example:
 
 ```yaml
-Name: Troy Jerrett
-Age: 96
-Religion: Islam
-Occupation: King
+Name: Zoey Baba
+Age: 46
+Religion: Atheism
+Occupation: Intern
+Character Traits:
+- generous
+- patient
+- wise
+- disrespectful
+- rude
 ```
