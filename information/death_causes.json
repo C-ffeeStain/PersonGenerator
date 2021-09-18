@@ -1,0 +1,23 @@
+{
+    "death_causes": {
+        "normal": [
+            "Stroke",
+            "Heart Attack",
+            "Cancer",
+            "Diabetes",
+            "Car Crash",
+            "Unknown",
+            "Disease",
+            "Suicide",
+            "Animal Bite"
+        ],
+        "rare": [
+            "Stabbed",
+            "Fire",
+            "Shot",
+            "Suffocation",
+            "Execution",
+            ""
+        ]
+    }
+}

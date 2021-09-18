@@ -1,0 +1,110 @@
+{
+    "normal": {
+        "construction worker": {},
+        "barista": {},
+        "waiter": {
+            "female_name": "waitress"
+        },
+        "manager": {},
+        "office worker": {},
+        "freelancer": {},
+        "criminal": {},
+        "intern": {},
+        "police officer": {
+            "professions": [
+                "deputy",
+                "sheriff",
+                "chief"
+            ]
+        },
+        "secret service agent": {},
+        "soldier": {},
+        "pilot": {},
+        "farmer": {},
+        "programmer": {},
+        "athlete": {
+            "professions": [
+                "boxer",
+                "swimmer",
+                "basketball player",
+                "football player",
+                "baseball player",
+                "soccer player",
+                "hockey player",
+                "golf player",
+                "rugby player",
+                "tennis player",
+                "volleyball player",
+                "bandy player",
+                "skateboarder",
+                "surfer",
+                "snowboarder",
+                "skater",
+                "ice skater",
+                "figure skater",
+                "ice hockey player"
+            ]
+        },
+        "none": {},
+        "ceo": {},
+        "cashier": {},
+        "terrorist": {},
+        "exorcist": {},
+        "cultist": {},
+        "youtuber": {},
+        "twitch streamer": {},
+        "doctor": {},
+        "nurse": {},
+        "scientist": {},
+        "artist": {},
+        "music artist": {},
+        "singer": {},
+        "firefighter": {},
+        "housewife": {
+            "female_only": true
+        },
+        "supervisor": {},
+        "teacher": {
+            "professions": [
+                "math teacher",
+                "science teacher",
+                "history teacher",
+                "english teacher",
+                "language teacher",
+                "art teacher",
+                "music teacher",
+                "physics teacher",
+                "chemistry teacher",
+                "biology teacher",
+                "geography teacher",
+                "history teacher",
+                "psychology teacher"
+            ]
+        },
+        "night guard": {},
+        "electrician": {},
+        "plumber": {},
+        "janitor": {},
+        "sanitation worker": {},
+        "miner": {},
+        "gameshow host": {}
+    },
+    "special": {
+        "emperor": {
+            "female_name": "empress"
+        },
+        "prince": {
+            "female_name": "princess"
+        },
+        "king": {
+            "female_name": "queen"
+        },
+        "mayor": {},
+        "prime minister": {},
+        "dictator": {},
+        "pope": {},
+        "priest": {
+            "female_name": "priestess"
+        }
+    }
+}

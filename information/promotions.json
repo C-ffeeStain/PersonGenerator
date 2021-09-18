@@ -1,0 +1,26 @@
+{
+    "soldier": [
+        "private",
+        "corporal",
+        "sergeant",
+        "lieutenant",
+        "captain",
+        "major",
+        "colonel"
+    ],
+    "mayor": [
+        "governor",
+        "senator",
+        "vice president",
+        "president"
+    ],
+    "teacher": [
+        "principal",
+        "school board member"
+    ],
+    "priest": [
+        "bishop",
+        "high priest",
+        "pope"
+    ]
+}
