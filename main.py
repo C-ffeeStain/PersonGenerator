@@ -128,7 +128,7 @@ print("Religion:", religion)
 print("Occupation:", occupation.title())
 if death_cause:
     print("Death Cause:", death_cause)
-print("Character Traits")
+print("Character Traits:")
 for trait in traits_dict["good"]:
     print("-", trait)
 for trait in traits_dict["bad"]:
