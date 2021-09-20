@@ -11,6 +11,14 @@ import random
 import json
 from typing import Any
 from copy import deepcopy
+import sys
+from pathlib import Path
+from appdirs import user_data_dir
+
+app_name = "random_person_generator"
+app_author = "c_ffeestain"
+
+data_dir = user_data_dir(app_name, app_author)
 
 
 def rnd_from_dict(d):
@@ -51,6 +59,12 @@ religions = [
 sexes = ["Male", "Female"]
 
 
+if hasattr(sys, "_MEIPASS"):
+    BASE_DIR = Path(sys._MEIPASS)
+else:
+    BASE_DIR = Path(__file__).parent
+
+
 class GUI(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -61,7 +75,7 @@ class GUI(QMainWindow):
         self.setGeometry(300, 600, 400, 350)
         self.center()
         self.setFont(QFont("Arial", 16))
-        self.setWindowIcon(QIcon("icon.ico"))
+        self.setWindowIcon(QIcon(str(BASE_DIR / "icon.png")))
 
         self.person_name_label = QLabel("Name", self)
         self.person_name_label.setFont(QFont("Arial", 16, QFont.Bold))
