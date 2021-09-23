@@ -183,8 +183,9 @@ async def random(ctx, gender: str = "rnd"):
         name="Name", value=person["name"][0] + " " + person["name"][1], inline=False
     )
     embed.add_field(name="Age", value=person["age"], inline=False)
-    embed.add_field(name="Occupation", value=person["occupation"].title(), inline=False)
     embed.add_field(name="Sex", value=person["gender"].title())
+    embed.add_field(name="Occupation", value=person["occupation"].title(), inline=False)
+
     embed.add_field(name="Religion", value=person["religion"], inline=False)
     embed.add_field(
         name="Traits",
