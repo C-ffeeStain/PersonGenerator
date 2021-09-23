@@ -1,0 +1,2 @@
+class InvalidGender(Exception):
+    pass
