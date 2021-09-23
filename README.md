@@ -4,7 +4,7 @@ This is a Discord bot that generates random people.
 
 # Getting a Bot Token
 
-To get a bot token, go to [discord.com/developer/applications](https://discord.com/developer/applications/). Then, click on the blue "New Application" button. Choose a name for your application. Go to the Bot tab you see on the left. After that, click the Add Bot button on the right. After the popup appears, click "Yes, do it!". Lastly, click the "Copy" button beneath the "Token" label. You now have copied your bot token; don't share this with anyone.
+To get a bot token, go to [discord.com/developers/applications](https://discord.com/developers/applications/). Then, click on the blue "New Application" button. Choose a name for your application. Go to the Bot tab you see on the left. After that, click the Add Bot button on the right. After the popup appears, click "Yes, do it!". Lastly, click the "Copy" button beneath the "Token" label. You now have copied your bot token; don't share this with anyone.
 
 # Usage
 
