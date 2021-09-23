@@ -16,6 +16,9 @@ cd %USERPROFILE%/Documents
 git clone https://github.com/C-ffeeStain/PersonGenerator.git
 cd PersonGenerator
 echo .env BOT_TOKEN={REPLACE_TOKEN_HERE}
+py -m venv venv
+"venv/Scripts/activate.bat"
+py -m pip -r requirements.txt
 py main.py
 
 ```
